@@ -1,0 +1,15 @@
+os 7 erros
+
+1- input type do <label> e-mail, no lugar de "text" tinha q estar email
+
+2 input type do <label> senha, no lugar de "text" tinha q estar password
+
+3- h2 color esta com dois pontos, na verdade é ponto e virgula
+
+4- body background-color esta sem nada, tinha q estar os dois pontos
+
+5- a tag html nao esta sendo fechada
+
+6- form-group input[type=submit] color, esta sem os dois pontos
+
+7- na classe width50, o width esta em 100% na verdade pelo proprio nome ja diz, é 50%
