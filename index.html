@@ -18,7 +18,7 @@
 
 			.width50{
 				float: left;
-				width: 100%;
+				width: 50%; /* O correto seria 50% ao invés de 100 */
 				padding: 10px;
 			}
 
@@ -29,12 +29,12 @@
 			}
 
 			body{
-				background-color rgb(225,225,225);
+				background-color: rgb(225,225,225); /* Faltou o : depois de background-color*/
 			}
 
 			h2{
 				text-align: center;
-				color: #4286f4:
+				color: #4286f4; /* Aqui fecha com ponto e vírgula e não com :*/
 				padding: 15px 0; 
 				font-size: 24px;
 				text-transform: uppercase;
@@ -78,7 +78,7 @@
 				width: 140px;
 				height: 40px;
 				background: #4286f4;
-				color white;
+				color: white; /* Faltou o : depois de color*/
 				border: 0;
 				cursor: pointer;
 			}
@@ -113,14 +113,14 @@
 				<div class="width50">
 					<div class="form-group">
 						<label>E-mail:</label>
-						<input type="text" name="nome">
+						<input type="email" name="nome"> <!-- Input type teria de ser "email" e não "text"-->
 					</div> 
 				</div>
 
 				<div class="width50">
 					<div class="form-group">
 						<label>Senha:</label>
-						<input type="text" name="nome">
+						<input type="password" name="nome"> <!-- Input type seria "password" e não "text" -->
 					</div>
 				</div>
 
@@ -137,10 +137,12 @@
 					</div>
 				</div>
 
-				<div class="clear"></div>
+				<div class="clear"></div> <!-- Div vazia -->
 			</form>
 
 
 		</div> 
 
 	</body>
+
+</html> <!-- Sem fechamento da tag HTML -->
