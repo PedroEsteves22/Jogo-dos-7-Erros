@@ -1,4 +1,4 @@
-os 7 erros
+os 7 erros kkkk
 
 1- input type do <label> e-mail, no lugar de "text" tinha q estar email
 
